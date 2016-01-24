@@ -3,10 +3,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[         0,          0]
-NotebookDataLength[     46866,        890]
-NotebookOptionsPosition[     45977,        854]
-NotebookOutlinePosition[     46320,        869]
-CellTagsIndexPosition[     46277,        866]
+NotebookDataLength[     46910,        891]
+NotebookOptionsPosition[     46023,        855]
+NotebookOutlinePosition[     46364,        870]
+CellTagsIndexPosition[     46321,        867]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -839,11 +839,12 @@ Cell[CellGroupData[{
 Cell[BoxData[
  RowBox[{"Export", "[", 
   RowBox[{
-  "\"\</home/nathan/QEA/HW1/part8.png\>\"", ",", "graphic1", ",", 
-   "\"\<PNG\>\""}], "]"}]], "Input",
+  "\"\</home/nathan/QEA-Homework/homework/hw1/part8.png\>\"", ",", "graphic1",
+    ",", "\"\<PNG\>\""}], "]"}]], "Input",
  CellChangeTimes->{{3.6626523580966988`*^9, 3.662652398435957*^9}, {
-  3.662652525687038*^9, 3.662652556118585*^9}, {3.6626526792745256`*^9, 
-  3.6626527608456993`*^9}, {3.6626528434992533`*^9, 3.6626528467938766`*^9}}],
+   3.662652525687038*^9, 3.662652556118585*^9}, {3.6626526792745256`*^9, 
+   3.6626527608456993`*^9}, {3.6626528434992533`*^9, 3.6626528467938766`*^9}, 
+   3.662654774692322*^9}],
 
 Cell[BoxData["\<\"/home/nathan/QEA/HW1/part8.png\"\>"], "Output",
  CellChangeTimes->{{3.662652477659873*^9, 3.662652477837797*^9}, 
@@ -853,7 +854,7 @@ Cell[BoxData["\<\"/home/nathan/QEA/HW1/part8.png\"\>"], "Output",
 }, Open  ]]
 },
 WindowSize->{928, 1028},
-WindowMargins->{{-1003, Automatic}, {Automatic, -10}},
+WindowMargins->{{Automatic, -10}, {Automatic, -10}},
 FrontEndVersion->"10.3 for Linux x86 (64-bit) (December 10, 2015)",
 StyleDefinitions->"Default.nb"
 ]
@@ -882,8 +883,8 @@ Cell[6776, 194, 501, 12, 77, "Input"],
 Cell[7280, 208, 37964, 625, 665, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[45281, 838, 373, 7, 32, "Input"],
-Cell[45657, 847, 304, 4, 89, "Output"]
+Cell[45281, 838, 419, 8, 32, "Input"],
+Cell[45703, 848, 304, 4, 32, "Output"]
 }, Open  ]]
 }
 ]
