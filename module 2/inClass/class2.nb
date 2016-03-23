@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     47761,       1500]
-NotebookOptionsPosition[     43484,       1347]
-NotebookOutlinePosition[     43825,       1362]
-CellTagsIndexPosition[     43782,       1359]
+NotebookDataLength[     48255,       1511]
+NotebookOptionsPosition[     43939,       1357]
+NotebookOutlinePosition[     44280,       1372]
+CellTagsIndexPosition[     44237,       1369]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -1114,6 +1114,12 @@ Cell[BoxData[
 Cell[BoxData[""], "Input",
  CellChangeTimes->{{3.66661814657752*^9, 3.666618161624969*^9}}],
 
+Cell["\<\
+Good example of animate.  This seems to be a good way to comress animate into \
+a single thing\
+\>", "Item",
+ CellChangeTimes->{{3.6666195550292807`*^9, 3.666619582337079*^9}}],
+
 Cell[CellGroupData[{
 
 Cell[BoxData[
@@ -1135,18 +1141,20 @@ Cell[BoxData[
      RowBox[{"s", "=", 
       RowBox[{"(", GridBox[{
          {
-          RowBox[{"Cos", "[", "\[Theta]", "]"}], "0", "0"},
+          RowBox[{"Sin", "[", "\[Theta]", "]"}], "0", "0"},
          {"0", 
           RowBox[{"Sin", "[", "\[Theta]", "]"}], "0"},
          {"0", "0", "1"}
-        }], ")"}]}], ";", "\[IndentingNewLine]", 
+        }], ")"}]}], ";", "\[IndentingNewLine]", "\[IndentingNewLine]", 
      RowBox[{"T", "=", GridBox[{
-        {"1", "0", "\[Theta]"},
-        {"0", "1", "\[Theta]"},
+        {"1", "0", 
+         RowBox[{"Cos", "[", "\[Theta]", "]"}]},
+        {"0", "1", 
+         RowBox[{"Sin", "[", "\[Theta]", "]"}]},
         {"0", "0", "1"}
        }]}], ";", "\[IndentingNewLine]", 
      RowBox[{"data", "=", 
-      RowBox[{"s", ".", "r", ".", "T", ".", "points2"}]}], ";", 
+      RowBox[{"r", ".", "s", ".", "T", ".", "points2"}]}], ";", 
      "\[IndentingNewLine]", 
      RowBox[{"Graphics", "[", 
       RowBox[{
@@ -1164,37 +1172,37 @@ Cell[BoxData[
          RowBox[{
           RowBox[{"{", 
            RowBox[{
-            RowBox[{"-", "10"}], ",", "10"}], "}"}], ",", 
+            RowBox[{"-", "4"}], ",", "4"}], "}"}], ",", 
           RowBox[{"{", 
            RowBox[{
-            RowBox[{"-", "10"}], ",", "10"}], "}"}]}], "}"}]}]}], "]"}]}], 
-    ",", 
+            RowBox[{"-", "4"}], ",", "4"}], "}"}]}], "}"}]}]}], "]"}]}], ",", 
+    
     RowBox[{"{", 
      RowBox[{"\[Theta]", ",", "0", ",", 
-      RowBox[{"2", "Pi"}]}], "}"}]}], "]"}], "\[IndentingNewLine]"}]], "Input",\
-
+      RowBox[{"2", "Pi"}]}], "}"}]}], "]"}], "\[LineSeparator]"}]], "Input",
  CellChangeTimes->{{3.666617913408596*^9, 3.666617915976763*^9}, {
-  3.666618172341857*^9, 3.666618220270506*^9}, {3.666618365947961*^9, 
-  3.6666185495597773`*^9}, {3.66661863204742*^9, 3.6666186403154488`*^9}, {
-  3.666618698315299*^9, 3.6666187558726597`*^9}, {3.666618791589258*^9, 
-  3.666618795884405*^9}, {3.6666189019805603`*^9, 3.666618902295227*^9}, {
-  3.666619126225647*^9, 3.666619183419862*^9}, {3.666619253779335*^9, 
-  3.6666193031046553`*^9}}],
+   3.666618172341857*^9, 3.666618220270506*^9}, {3.666618365947961*^9, 
+   3.6666185495597773`*^9}, {3.66661863204742*^9, 3.6666186403154488`*^9}, {
+   3.666618698315299*^9, 3.6666187558726597`*^9}, {3.666618791589258*^9, 
+   3.666618795884405*^9}, {3.6666189019805603`*^9, 3.666618902295227*^9}, {
+   3.666619126225647*^9, 3.666619183419862*^9}, {3.666619253779335*^9, 
+   3.6666193031046553`*^9}, {3.666619445246482*^9, 3.6666195527748938`*^9}, 
+   3.6666195833208017`*^9}],
 
 Cell[BoxData[
  TagBox[
   StyleBox[
-   DynamicModuleBox[{$CellContext`\[Theta]$$ = 3.575419797529965, 
+   DynamicModuleBox[{$CellContext`\[Theta]$$ = 5.1842007243736346`, 
     Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
     Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
     1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{
       Hold[$CellContext`\[Theta]$$], 0, 2 Pi}}, Typeset`size$$ = {
-    360., {176., 181.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
-    Typeset`skipInitDone$$ = True, $CellContext`\[Theta]$468617$$ = 0}, 
+    360., {178., 184.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
+    Typeset`skipInitDone$$ = True, $CellContext`\[Theta]$469870$$ = 0}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, "Variables" :> {$CellContext`\[Theta]$$ = 0}, 
       "ControllerVariables" :> {
-        Hold[$CellContext`\[Theta]$$, $CellContext`\[Theta]$468617$$, 0]}, 
+        Hold[$CellContext`\[Theta]$$, $CellContext`\[Theta]$469870$$, 0]}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -1203,16 +1211,17 @@ Cell[BoxData[
            Cos[$CellContext`\[Theta]$$], 
            Sin[$CellContext`\[Theta]$$], 0}, {-Sin[$CellContext`\[Theta]$$], 
            Cos[$CellContext`\[Theta]$$], 0}, {0, 0, 1}}; $CellContext`s = {{
-           Cos[$CellContext`\[Theta]$$], 0, 0}, {0, 
+           Sin[$CellContext`\[Theta]$$], 0, 0}, {0, 
            Sin[$CellContext`\[Theta]$$], 0}, {0, 0, 1}}; $CellContext`T = {{
-          1, 0, $CellContext`\[Theta]$$}, {0, 1, $CellContext`\[Theta]$$}, {0,
-           0, 1}}; $CellContext`data = 
-        Dot[$CellContext`s, $CellContext`r, $CellContext`T, \
+          1, 0, 
+           Cos[$CellContext`\[Theta]$$]}, {0, 1, 
+           Sin[$CellContext`\[Theta]$$]}, {0, 0, 1}}; $CellContext`data = 
+        Dot[$CellContext`r, $CellContext`s, $CellContext`T, \
 $CellContext`points2]; Graphics[
          Polygon[
           Transpose[
            Part[$CellContext`data, {1, 2}, All]]], Axes -> True, 
-         PlotRange -> {{-10, 10}, {-10, 10}}]), 
+         PlotRange -> {{-4, 4}, {-4, 4}}]), 
       "Specifications" :> {{$CellContext`\[Theta]$$, 0, 2 Pi, 
          AppearanceElements -> {
           "ProgressSlider", "PlayPauseButton", "FasterSlowerButtons", 
@@ -1221,7 +1230,7 @@ $CellContext`points2]; Graphics[
        ControlType -> Animator, AppearanceElements -> None, DefaultBaseStyle -> 
         "Animate", DefaultLabelStyle -> "AnimateLabel", SynchronousUpdating -> 
         True, ShrinkingDelay -> 10.}, "DefaultOptions" :> {}],
-     ImageSizeCache->{407., {211., 218.}},
+     ImageSizeCache->{407., {213., 220.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -1233,7 +1242,8 @@ $CellContext`points2]; Graphics[
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
  CellChangeTimes->{{3.6666191781370077`*^9, 3.666619183828417*^9}, {
-  3.666619254691167*^9, 3.6666193034883537`*^9}}]
+   3.666619254691167*^9, 3.6666193034883537`*^9}, {3.666619448248397*^9, 
+   3.6666195157945843`*^9}, 3.666619585002089*^9}]
 }, Open  ]],
 
 Cell[BoxData[
@@ -1489,18 +1499,19 @@ Cell[34186, 1090, 303, 9, 32, InheritFromParent],
 Cell[34492, 1101, 302, 9, 32, "Output"]
 }, Open  ]],
 Cell[34809, 1113, 91, 1, 32, "Input"],
+Cell[34903, 1116, 186, 4, 31, "Item"],
 Cell[CellGroupData[{
-Cell[34925, 1118, 2321, 63, 316, "Input"],
-Cell[37249, 1183, 2720, 52, 446, "Output"]
+Cell[35114, 1124, 2491, 65, 342, "Input"],
+Cell[37608, 1191, 2816, 54, 450, "Output"]
 }, Open  ]],
-Cell[39984, 1238, 868, 27, 208, "Input"],
+Cell[40439, 1248, 868, 27, 208, "Input"],
 Cell[CellGroupData[{
-Cell[40877, 1269, 415, 10, 32, "Input"],
-Cell[41295, 1281, 693, 17, 32, "Output"]
+Cell[41332, 1279, 415, 10, 32, "Input"],
+Cell[41750, 1291, 693, 17, 32, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[42025, 1303, 569, 16, 55, "Input"],
-Cell[42597, 1321, 871, 23, 94, "Output"]
+Cell[42480, 1313, 569, 16, 55, "Input"],
+Cell[43052, 1331, 871, 23, 94, "Output"]
 }, Open  ]]
 }
 ]
