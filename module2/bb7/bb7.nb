@@ -1,0 +1,338 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      8815,        329]
+NotebookOptionsPosition[      6016,        228]
+NotebookOutlinePosition[      6820,        255]
+CellTagsIndexPosition[      6777,        252]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["title", "Title",
+ CellChangeTimes->{{3.669150559681772*^9, 3.669150571903796*^9}, {
+  3.66915071869628*^9, 3.669150719026842*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["chapter", "Chapter",
+ CellChangeTimes->{{3.669150610400777*^9, 3.6691506134735107`*^9}, {
+  3.669150720437181*^9, 3.669150721209317*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["subchapter", "Subchapter",
+ CellChangeTimes->{{3.669150624872777*^9, 3.66915062541149*^9}, {
+  3.669150723034037*^9, 3.6691507240550327`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["section", "Section",
+ CellChangeTimes->{{3.669150630432105*^9, 3.669150631752553*^9}, {
+  3.669150732584236*^9, 3.669150733488462*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["subsection", "Subsection",
+ CellChangeTimes->{{3.6691506346200447`*^9, 3.669150637315217*^9}, {
+  3.669150735346507*^9, 3.6691507364593887`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["subsubsection", "Subsubsection",
+ CellChangeTimes->{{3.669150639736372*^9, 3.669150640255129*^9}, {
+  3.669150738085977*^9, 3.669150740207879*^9}}],
+
+Cell["askdfjlasjdf", "Text",
+ CellChangeTimes->{{3.669150643286963*^9, 3.66915064380943*^9}}],
+
+Cell[BoxData["code"], "Code",
+ CellChangeTimes->{{3.669150697718837*^9, 3.669150710650361*^9}}],
+
+Cell[BoxData["input"], "Input",
+ CellChangeTimes->{{3.669150647106176*^9, 3.6691506475865593`*^9}, {
+  3.669150712679432*^9, 3.669150713499732*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Building Block 7 - Nathan Yee", "Title",
+ CellChangeTimes->{{3.669150751637041*^9, 3.669150760777759*^9}, {
+  3.669150798125958*^9, 3.669150799398686*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Decomposition", "Chapter",
+ CellChangeTimes->{{3.669150855138945*^9, 3.669150857256296*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["1.", "Section",
+ CellChangeTimes->{{3.669150809007605*^9, 3.669150811299036*^9}, {
+  3.669150845338038*^9, 3.669150848422058*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["(a)", "Subsection",
+ CellChangeTimes->{{3.66915091782893*^9, 3.669150920562351*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Det", "[", GridBox[{
+    {"1", "0", "0"},
+    {"0", "1", "0"},
+    {"0", "0", "2"}
+   }], "]"}]], "Code",
+ CellChangeTimes->{{3.669150948480826*^9, 3.669150967219142*^9}}],
+
+Cell[BoxData["2"], "Output",
+ CellChangeTimes->{3.6691509678031263`*^9}]
+}, Open  ]],
+
+Cell["Linearly independent", "Text",
+ CellChangeTimes->{{3.669151048579605*^9, 3.669151049525467*^9}, {
+  3.669151231607707*^9, 3.669151231732294*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["(b)", "Subsection",
+ CellChangeTimes->{{3.669150973971093*^9, 3.669150974558804*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Det", "[", GridBox[{
+    {"1", "1", "0"},
+    {"3", "1", "1"},
+    {"0", "0", "0"}
+   }], "]"}]], "Code",
+ CellChangeTimes->{{3.669150984371607*^9, 3.669150984642371*^9}, {
+  3.669151064845315*^9, 3.669151078486253*^9}}],
+
+Cell[BoxData["0"], "Output",
+ CellChangeTimes->{3.6691510865007668`*^9}]
+}, Open  ]],
+
+Cell["Linearly Dependent", "Text",
+ CellChangeTimes->{{3.669151089502131*^9, 3.669151091962294*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["(c)", "Subsection",
+ CellChangeTimes->{{3.669151102291244*^9, 3.669151102950944*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Det", "[", GridBox[{
+    {"1", "1", "3"},
+    {"2", "1", "4"},
+    {"3", "0", "3"}
+   }], "]"}]], "Code",
+ CellChangeTimes->{{3.6691511077630177`*^9, 3.669151123429874*^9}}],
+
+Cell[BoxData["0"], "Output",
+ CellChangeTimes->{3.669151124440876*^9}]
+}, Open  ]],
+
+Cell["Linearly Dependent", "Text",
+ CellChangeTimes->{{3.669151126995441*^9, 3.669151129040523*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["(d)", "Subsection",
+ CellChangeTimes->{{3.669151156130726*^9, 3.669151156623939*^9}}],
+
+Cell["I don\[CloseCurlyQuote]t understand part (d)", "Text",
+ CellChangeTimes->{{3.6691511710351963`*^9, 3.669151182730568*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["(e)", "Subsection",
+ CellChangeTimes->{{3.669151160470776*^9, 3.6691511617069283`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Det", "[", GridBox[{
+    {"1", "3"},
+    {"2", "3"}
+   }], "]"}]], "Code",
+ CellChangeTimes->{{3.669151193218182*^9, 3.6691512117416887`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"-", "3"}]], "Output",
+ CellChangeTimes->{3.66915121286502*^9}]
+}, Open  ]],
+
+Cell["Linearly independent", "Text",
+ CellChangeTimes->{{3.669151216124505*^9, 3.669151236704687*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell["2.", "Section",
+ CellChangeTimes->{{3.6691512561532307`*^9, 3.6691512602650843`*^9}}],
+
+Cell["3.", "Section",
+ CellChangeTimes->{{3.669151317085516*^9, 3.669151317315076*^9}}],
+
+Cell["4.", "Section",
+ CellChangeTimes->{{3.669151321159029*^9, 3.669151321313115*^9}}],
+
+Cell["5.", "Section",
+ CellChangeTimes->{{3.669151321159029*^9, 3.6691513472691307`*^9}}],
+
+Cell["6.", "Section",
+ CellChangeTimes->{{3.669151321159029*^9, 3.669151349317113*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Eigendecomposition", "Chapter",
+ CellChangeTimes->{{3.669151361537489*^9, 3.669151366875749*^9}}],
+
+Cell["7.", "Section",
+ CellChangeTimes->{{3.669151321159029*^9, 3.669151350694071*^9}}],
+
+Cell["8.", "Section",
+ CellChangeTimes->{{3.669151321159029*^9, 3.669151321313115*^9}, {
+  3.669151352296247*^9, 3.669151352464204*^9}}],
+
+Cell["9.", "Section",
+ CellChangeTimes->{{3.669151321159029*^9, 3.669151321313115*^9}, {
+  3.669151352296247*^9, 3.669151352464204*^9}, {3.669151390187769*^9, 
+  3.669151390355754*^9}}]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{960, 1028},
+WindowMargins->{{-10, Automatic}, {Automatic, -10}},
+FrontEndVersion->"10.3 for Linux x86 (64-bit) (December 10, 2015)",
+StyleDefinitions->Notebook[{
+   Cell[
+    StyleData[StyleDefinitions -> "Default.nb"]], 
+   Cell[
+    CellGroupData[{
+      Cell[
+       StyleData["Text"]], 
+      Cell[
+       BoxData[""], "Input", 
+       CellChangeTimes -> {{3.669150417647841*^9, 3.669150419536611*^9}}]}, 
+     Open]]}, WindowMargins -> {{Automatic, -10}, {Automatic, -10}}, Visible -> 
+  False, FrontEndVersion -> "10.3 for Linux x86 (64-bit) (December 10, 2015)",
+   StyleDefinitions -> "PrivateStylesheetFormatting.nb"]
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 136, 2, 93, "Title"],
+Cell[CellGroupData[{
+Cell[741, 28, 143, 2, 66, "Chapter"],
+Cell[CellGroupData[{
+Cell[909, 34, 148, 2, 65, "Subchapter"],
+Cell[CellGroupData[{
+Cell[1082, 40, 141, 2, 65, "Section"],
+Cell[CellGroupData[{
+Cell[1248, 46, 151, 2, 44, "Subsection"],
+Cell[CellGroupData[{
+Cell[1424, 52, 153, 2, 35, "Subsubsection"],
+Cell[1580, 56, 93, 1, 33, "Text"],
+Cell[1676, 59, 95, 1, 51, "Code"],
+Cell[1774, 62, 148, 2, 32, "Input"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[2019, 74, 161, 2, 67, "Title"],
+Cell[CellGroupData[{
+Cell[2205, 80, 98, 1, 66, "Chapter"],
+Cell[CellGroupData[{
+Cell[2328, 85, 136, 2, 65, "Section"],
+Cell[CellGroupData[{
+Cell[2489, 91, 90, 1, 45, "Subsection"],
+Cell[CellGroupData[{
+Cell[2604, 96, 195, 6, 81, "Code"],
+Cell[2802, 104, 72, 1, 32, "Output"]
+}, Open  ]],
+Cell[2889, 108, 151, 2, 33, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3077, 115, 91, 1, 45, "Subsection"],
+Cell[CellGroupData[{
+Cell[3193, 120, 244, 7, 81, "Code"],
+Cell[3440, 129, 72, 1, 32, "Output"]
+}, Open  ]],
+Cell[3527, 133, 100, 1, 33, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3664, 139, 91, 1, 45, "Subsection"],
+Cell[CellGroupData[{
+Cell[3780, 144, 197, 6, 81, "Code"],
+Cell[3980, 152, 70, 1, 32, "Output"]
+}, Open  ]],
+Cell[4065, 156, 100, 1, 33, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4202, 162, 91, 1, 45, "Subsection"],
+Cell[4296, 165, 128, 1, 33, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4461, 171, 93, 1, 45, "Subsection"],
+Cell[CellGroupData[{
+Cell[4579, 176, 166, 5, 65, "Code"],
+Cell[4748, 183, 86, 2, 32, "Output"]
+}, Open  ]],
+Cell[4849, 188, 102, 1, 33, "Text"]
+}, Open  ]]
+}, Open  ]],
+Cell[4978, 193, 91, 1, 65, "Section"],
+Cell[5072, 196, 87, 1, 51, "Section"],
+Cell[5162, 199, 87, 1, 51, "Section"],
+Cell[5252, 202, 89, 1, 51, "Section"],
+Cell[5344, 205, 87, 1, 51, "Section"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5468, 211, 103, 1, 66, "Chapter"],
+Cell[5574, 214, 87, 1, 65, "Section"],
+Cell[5664, 217, 136, 2, 51, "Section"],
+Cell[5803, 221, 185, 3, 51, "Section"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
